@@ -1,0 +1,67 @@
+#NEXUS
+[R-package APE, Wed Aug 24 13:32:36 2022]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 27;
+	TAXLABELS
+		Xmeyeri
+		Xcouchianus
+		Xvariatus
+		Xandersi
+		Xbirchmanni
+		Xmalinche
+		Xcortezi
+		Xnezahualcoyotl
+		Xmontezumae
+		Xcontinens
+		Xpygmaeus
+		Xmultilineatus_large
+		Xnigrensis_large
+		Psjonesii
+		Xmonticolus
+		Xclemenciae
+		Xhellerii
+		Xmayae
+		Xalvarezi
+		Xsignum
+		Xmaculatus
+		Xxiphidium
+		Xmilleri
+		Xevelynae
+		Xgordoni
+		Xmultilineatus_small
+		Xnigrensis_small
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Xmeyeri,
+		2	Xcouchianus,
+		3	Xvariatus,
+		4	Xandersi,
+		5	Xbirchmanni,
+		6	Xmalinche,
+		7	Xcortezi,
+		8	Xnezahualcoyotl,
+		9	Xmontezumae,
+		10	Xcontinens,
+		11	Xpygmaeus,
+		12	Xmultilineatus_large,
+		13	Xnigrensis_large,
+		14	Psjonesii,
+		15	Xmonticolus,
+		16	Xclemenciae,
+		17	Xhellerii,
+		18	Xmayae,
+		19	Xalvarezi,
+		20	Xsignum,
+		21	Xmaculatus,
+		22	Xxiphidium,
+		23	Xmilleri,
+		24	Xevelynae,
+		25	Xgordoni,
+		26	Xmultilineatus_small,
+		27	Xnigrensis_small
+	;
+	TREE * UNTITLED = [&R] (((((((((((1:0.0065,25:0.0071):0.001,2:0.0005524725806):0.0522,3:0.041):0.0186,24:0.0667):0.0175,23:0.0881):0.0258,22:0.102):0.0192,4:0.1062):0.0178,21:0.1451):0.0371,((((5:0.0349,6:0.0392):0.0177,7:0.0473):0.0188,(8:0.0424,(9:0.0356,10:0.0323):0.0052):0.0155):0.0136,(11:0.0217,((12:0.0237,26:0.0237):0.0052,(13:0.0237,27:0.0237):0.0038):0.0052):0.0469):0.0874):0.0196,((15:0.0794088964,16:0.06934947484):0.04362614344,((17:0.06822384381,(18:0.06468928736,19:0.05180816191):0.02140661165):0.01682028,20:0.07563283303):0.06932752283):0.0196):0.2432,14:0.3671136719);
+END;
